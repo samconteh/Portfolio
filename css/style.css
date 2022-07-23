@@ -1,0 +1,25 @@
+
+.header{
+  padding: 20px 35px;
+  background-color: rgba(58, 36, 8, 0.13);
+  font-family:'Times New Roman', Times, serif
+}
+.header h1{
+  font-weight: bold;
+  font-size: 36px;
+  color: #fc8038a5;
+  margin: 0;
+  display: inline;
+}
+.header a{
+ color: #fc8038a5;
+}
+.header nav{
+  float: right; 
+  font-size: 20px;
+  margin-right: 20px;
+}
+.header nav ul li{
+  display: inline-block;
+  margin-left: 25px;
+}

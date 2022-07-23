@@ -1,8 +1,14 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .header{
   padding: 20px 35px;
   background-color: rgba(58, 36, 8, 0.13);
-  font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-between;
 }
 .header h1{
   font-weight: bold;
@@ -22,4 +28,31 @@
 .header nav ul li{
   display: inline-block;
   margin-left: 25px;
+}
+  
+.hero-div{
+  flex-basis: 100%;
+  display: inline-block;
+  margin-left: 0;
+  background-color: aqua;
+  text-align: center;
+  padding: 40px;
+  height: 250px;
+  position: relative;
+  
+
+}
+.hero-img{
+float: right;
+width: 25%;
+height: auto;
+background-color: aliceblue;
+}
+.hero-div h2{
+  text-align: center;
+  padding: 45px;
+}
+.hero-div p{
+  text-align: center;
+  padding-left: 25px;
 }

@@ -120,3 +120,33 @@ padding-right: 60px;
   float: right;
   border:5px WHITE solid
 }
+.Contact{
+  background-color: aqua;
+  border:5px WHITE solid
+
+}
+.Contact h2{
+  display: inline-block;
+  color: black;
+  font-family:'Times New Roman', Times, serif;
+  justify-content: space-between;
+  padding: 20px 25px;
+  text-align: center;
+
+}
+.Contact ul{
+  float: right;
+  padding: 25px;
+
+  
+}
+.Contact ul li{
+  display: inline-block;
+  margin-left: 25px;
+  padding-left: 30px;
+
+}
+.Contact a{
+  font-size: 20px;
+  color: black;
+}

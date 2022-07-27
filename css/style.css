@@ -161,10 +161,38 @@ padding: 150px 7px;
 .Contact ul li{
   display: inline-block;
   margin-left: 25px;
-  padding-left: 30px;
 
 }
 .Contact a{
   font-size: 20px;
   color: black;
+}
+.footer {
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+/* Media Quaries for mobiles */
+@media screen and (max-width:575px) {
+ .header h1{
+  width: 100%;
+ } 
+  .Contact{
+    width: 100%;
+  }
+  .contact{
+    text-align: center;
+  }
+  .contact > * {
+    flex: 0 100%;
+  }
+  body { 
+    font-size: 12px;
+    aspect-ratio: auto;
+    justify-content: center;
+}
 }

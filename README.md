@@ -1,1 +1,1 @@
-# Portfolio
+This is a deployed portfolio of my work samples. This portfolio consists of my name, a recent photo and links to sections about me, my work, and how to contact me.when you click on one of the links in the navigation,the UI scrolls to the corresponding section. When you click on the link to the section about my work,the UI scrolls to a section with titled images of my applications. When you resize the page or view the site on various screens and devices. You will be presented with a responsive layout that adapts to my viewport.
